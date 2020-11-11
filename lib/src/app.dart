@@ -4,7 +4,8 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home:Home_Screen()
+      debugShowCheckedModeBanner: false,
+      home:SafeArea(child: Home_Screen())
 
     );
   }
